@@ -1,0 +1,7 @@
+. Add Digits Easy Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
+  Math Simulation Number Theory
+Happy Number
+Sum of Digits in the Minimum Number
+Sum of Digits of String After Convert
+Minimum Sum of Four Digit Number After Splitting Digits
+Calculate Digit Sum of a String

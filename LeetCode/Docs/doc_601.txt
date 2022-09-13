@@ -1,0 +1,8 @@
+. Top K Frequent Words Medium Given an array of strings words and an integer k, return the k most frequent strings.
+Return the answer sorted by the frequency from highest to lowest. Sort the words with the same frequency by their lexicographical order.
+  Hash Table String Trie Sorting Heap (Priority Queue) Bucket Sort Counting
+Top K Frequent Elements
+K Closest Points to Origin
+Sort Features by Popularity
+Sender With Largest Word Count
+Maximum Number of Pairs in Array

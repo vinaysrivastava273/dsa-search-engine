@@ -1,0 +1,5 @@
+. Count of Range Sum Hard Given an integer array nums and two integers lower and upper, return the number of range sums that lie in [lower, upper] inclusive.
+Range sum S(i, j) is defined as the sum of the elements in nums between indices i and j inclusive, where i <= j.
+  Array Binary Search Divide and Conquer Binary Indexed Tree Segment Tree Merge Sort Ordered Set
+Count of Smaller Numbers After Self
+Reverse Pairs

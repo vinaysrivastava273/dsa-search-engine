@@ -1,0 +1,4 @@
+. Rotate List Medium Given the head of a linked list, rotate the list to the right by k places.
+  Linked List Two Pointers
+Rotate Array
+Split Linked List in Parts

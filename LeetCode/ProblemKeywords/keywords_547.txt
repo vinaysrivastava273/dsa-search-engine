@@ -1,0 +1,6 @@
+exchange
+seat
+medium
+sql
+sche
+database

@@ -1,0 +1,6 @@
+. Partition Equal Subset Sum Medium Given a non-empty array nums containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
+  Array Dynamic Programming
+Partition to K Equal Sum Subsets
+Minimize the Difference Between Target and Chosen Elements
+Maximum Number of Ways to Partition an Array
+Partition Array Into Two Arrays to Minimize Sum Difference

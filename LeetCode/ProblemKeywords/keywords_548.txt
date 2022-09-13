@@ -1,0 +1,6 @@
+swap
+salary
+easy
+sql
+sche
+database

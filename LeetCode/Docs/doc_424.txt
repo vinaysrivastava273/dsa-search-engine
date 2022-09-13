@@ -1,0 +1,6 @@
+. Minimum Moves to Equal Array Elements Medium Given an integer array nums of size n, return the minimum number of moves required to make all array elements equal.
+In one move, you can increment n - 1 elements of the array by 1.
+  Array Math
+Minimum Moves to Equal Array Elements II
+Maximum Running Time of N Computers
+Pour Water Between Buckets to Make Water Levels Equal

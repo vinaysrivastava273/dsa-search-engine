@@ -1,0 +1,8 @@
+. Max Consecutive Ones III Medium Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.
+  Array Binary Search Sliding Window Prefix Sum
+Longest Substring with At Most K Distinct Characters
+Longest Repeating Character Replacement
+Max Consecutive Ones
+Max Consecutive Ones II
+Maximize the Confusion of an Exam
+Minimum Recolors to Get K Consecutive Black Blocks

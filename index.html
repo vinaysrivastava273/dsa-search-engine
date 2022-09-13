@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>
+            Server Hosted Page
+        </title>
+    </head>
+    <body>
+        <h1>Hey there, I am hosting my first server.</h1>
+        My name is Vinay Srivastava.
+        <br>
+        <label for="fname">First name:</label> <input type="text" id="fname" name="fname">
+        <label for="lname">Last name:</label><input type="text" id="lname" name="lname">
+        <button type="submit" onclick='myfunction();'>Search</button>
+
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+        <script>
+            function myfunction() {
+
+                const firstname = document.getElementById("fname").value;
+                const lastname = document.getElementById("lname").value;
+
+
+                const dict_values = {firstname, lastname} //Pass the javascript variables to a dictionary.
+                const s = JSON.stringify(dict_values); // Stringify converts a JavaScript object or value to a JSON string
+
+                $.ajax({
+                    url:"./../Database/user_query.py",
+                    type:"POST",
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(s),
+                    success: function (msg) {
+                        console.log(msg);
+                    }
+                });
+            }
+        </script>
+
+    </body>
+</html>

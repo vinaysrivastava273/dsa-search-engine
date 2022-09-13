@@ -1,0 +1,11 @@
+. Number of Provinces Medium There are n cities. Some of them are connected, while some are not. If city a is connected directly with city b, and city b is connected directly with city c, then city a is connected indirectly with city c.
+A province is a group of directly or indirectly connected cities and no other cities outside of the group.
+You are given an n x n matrix isConnected where isConnected[i][j] = 1 if the ith city and the jth city are directly connected, and isConnected[i][j] = 0 otherwise.
+Return the total number of provinces.
+  Depth-First Search Breadth-First Search Union Find Graph
+Number of Connected Components in an Undirected Graph
+Robot Return to Origin
+Sentence Similarity
+Sentence Similarity II
+The Earliest Moment When Everyone Become Friends
+Detonate the Maximum Bombs

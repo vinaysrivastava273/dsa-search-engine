@@ -1,0 +1,7 @@
+delete
+duplicate
+email
+easy
+sql
+sche
+database

@@ -1,0 +1,9 @@
+. Sort Characters By Frequency Medium Given a string s, sort it in decreasing order based on the frequency of the characters. The frequency of a character is the number of times it appears in the string.
+Return the sorted string. If there are multiple answers, return any of them.
+  Hash Table String Sorting Heap (Priority Queue) Bucket Sort Counting
+Top K Frequent Elements
+First Unique Character in a String
+Sort Array by Increasing Frequency
+Percentage of Letter in String
+Maximum Number of Pairs in Array
+Node With Highest Edge Score

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search Engine</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="heading">AlgoDS Search Engine</div>
+        <br>
+        <form>
+            <input type="text" name="question" id="searchbar" placeholder="What's your query?"/>
+            <br>
+            <input type="submit" value="Search" id="submit"/>            
+        </form>
+        
+        <div class="loading"></div>
+        
+        <div class="question">
+            <div class="title"></div>
+            <div class="url">
+                <a href=""></a>
+            </div>
+            <div class="body"></div>
+        </div>
+        <div class="question">
+            <div class="title"></div>
+            <div class="url">
+                <a href=""></a>
+            </div>
+            <div class="body"></div>
+        </div>
+        <div class="question">
+            <div class="title"></div>
+            <div class="url">
+                <a href=""></a>
+            </div>
+            <div class="body"></div>
+        </div>
+        <div class="question">
+            <div class="title"></div>
+            <div class="url">
+                <a href=""></a>
+            </div>
+            <div class="body"></div>
+        </div>
+        <div class="question">
+            <div class="title"></div>
+            <div class="url">
+                <a href=""></a>
+            </div>
+            <div class="body"></div>
+        </div>
+
+        <div class="footer">
+            <p>Made with 
+                <i class="fa fa-heart" style="color:red"></i> 
+                by Vinay Kumar Srivastava
+            </p>
+        </div>
+    </body>
+</html>
+
+<script>
+    const form = document.querySelector("form");
+    const questionElement = form.question;
+
+    const questions = document.querySelectorAll(".question");
+    const titles = document.querySelectorAll(".title");
+    const urls = document.querySelectorAll(".url");
+    const quesBody = document.querySelectorAll(".body");
+    const loadingDiv = document.querySelector(".loading");
+    // console.log(titles);
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const question = questionElement.value;
+        if (question == "") {
+            loadingDiv.innerHTML = `<br>You haven't typed anything.`;
+            return;
+        }
+
+        for(let i=0; i<5; i++){
+            titles[i].innerHTML = ``;
+            titles[i].style = `opacity: 0%;`;
+        }
+        loadingDiv.innerHTML = `<br>Loading...`;
+        
+        // // fetch 
+        try{
+            const res = await fetch(`/search?question=${question}`, {method: "GET"});
+            const data = await res.json();
+            console.log(data);
+
+            loadingDiv.innerHTML = `<br>The top 5 results are:<br>`;
+
+            for(let i=0; i<5; i++){
+                titles[i].innerHTML = `<a href="${data[i]}">${data[i]}</a>`;
+                
+                titles[i].style = `background: black; opacity: 75%;`;
+                // urls[i].innerHTML =  `<a href="${data[i]}">Link</a>`;
+                // quesBody[i].innerHTML = `<p>${data[i].statement}</p>`;
+            }
+
+        } catch (error) {
+            alert(error);
+        }
+    });
+</script>

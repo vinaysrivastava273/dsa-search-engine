@@ -1,0 +1,6 @@
+big
+country
+easy
+sql
+sche
+database

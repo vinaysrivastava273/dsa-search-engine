@@ -1,0 +1,5 @@
+. Contains Duplicate Easy Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+  Array Hash Table Sorting
+Contains Duplicate II
+Contains Duplicate III
+Make Array Zero by Subtracting Equal Amounts

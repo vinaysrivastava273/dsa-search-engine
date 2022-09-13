@@ -1,0 +1,16 @@
+lower
+case
+easy
+given
+string
+return
+string
+replacing
+every
+uppercase
+letter
+lowercase
+letter
+string
+capitalize
+title

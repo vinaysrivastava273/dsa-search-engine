@@ -1,0 +1,7 @@
+human
+traffic
+stadium
+hard
+sql
+sche
+database

@@ -1,0 +1,7 @@
+. N-ary Tree Level Order Traversal Medium Given an n-ary tree, return the level order traversal of its nodes' values.
+Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value (See examples).
+  Tree Breadth-First Search
+Binary Tree Level Order Traversal
+N-ary Tree Preorder Traversal
+N-ary Tree Postorder Traversal
+The Time When the Network Becomes Idle

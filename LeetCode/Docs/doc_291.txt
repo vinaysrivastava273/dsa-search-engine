@@ -1,0 +1,9 @@
+. Ugly Number II Medium An ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.
+Given an integer n, return the nth ugly number.
+  Hash Table Math Dynamic Programming Heap (Priority Queue)
+Merge k Sorted Lists
+Count Primes
+Ugly Number
+Perfect Squares
+Super Ugly Number
+Ugly Number III

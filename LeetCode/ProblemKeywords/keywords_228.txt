@@ -1,0 +1,10 @@
+department
+highest
+salary
+medium
+sql
+sche
+database
+highest
+grade
+student

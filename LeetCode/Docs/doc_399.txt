@@ -1,0 +1,4 @@
+. Maximum XOR of Two Numbers in an Array Medium Given an integer array nums, return the maximum result of nums[i] XOR nums[j], where 0 <= i <= j < n.
+  Array Hash Table Bit Manipulation Trie
+Maximum XOR With an Element From Array
+Maximum XOR After Operations 

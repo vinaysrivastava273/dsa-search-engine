@@ -1,0 +1,5 @@
+. Palindrome Pairs Hard Given a list of unique words, return all the pairs of the distinct indices (i, j) in the given list, so that the concatenation of the two words words[i] + words[j] is a palindrome.
+  Array Hash Table String Trie
+Longest Palindromic Substring
+Shortest Palindrome
+Longest Palindrome by Concatenating Two Letter Words

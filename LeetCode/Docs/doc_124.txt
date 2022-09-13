@@ -1,0 +1,7 @@
+. Set Matrix Zeroes Medium Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
+You must do it in place.
+  Array Hash Table Matrix
+Game of Life
+Number of Laser Beams in a Bank
+Minimum Operations to Remove Adjacent Ones in Matrix
+Remove All Ones With Row and Column Flips II

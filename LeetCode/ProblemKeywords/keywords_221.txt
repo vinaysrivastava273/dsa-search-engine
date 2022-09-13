@@ -1,0 +1,11 @@
+nth
+highest
+salary
+medium
+sql
+sche
+database
+number
+user
+eligible
+discount

@@ -1,0 +1,2 @@
+. Nth Highest Salary Medium SQL Sche Database
+The Number of Users That Are Eligible for Discount

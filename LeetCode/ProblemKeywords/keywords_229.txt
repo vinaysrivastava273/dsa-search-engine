@@ -1,0 +1,8 @@
+department
+top
+three
+salary
+hard
+sql
+sche
+database

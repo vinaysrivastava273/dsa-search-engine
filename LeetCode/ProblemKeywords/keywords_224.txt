@@ -1,0 +1,6 @@
+consecutive
+number
+medium
+sql
+sche
+database

@@ -1,0 +1,91 @@
+body {
+    background-color: #f8f9fa;;
+    background: url("bgimage.jpg");
+    background-size: cover;
+    text-align: center;
+    vertical-align: middle;
+    margin: 3rem;
+    padding: 3rem;
+}
+
+.heading {
+    font-family:'Times New Roman', Times, serif;
+    color: ghostwhite;
+    font-size: 3.5vw;
+}
+
+#searchbar {
+    width: 50%;
+    height: 2vw;
+    padding: 10px 10px 10px 20px;
+    text-transform: capitalize;
+    text-align: center;
+    box-shadow: none;
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2vw;
+}
+
+#submit {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.loading {
+    color: white;
+    font-size: 1.4vw;
+    font-family: arial, sans-serif;
+    /* font-size: 22px; */
+}
+
+.question {
+    color: white;
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black;
+    opacity: 58%;
+    padding-bottom: 20px; */
+}
+
+.title {
+    color: white;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%; 
+    /* height: 1vw; */
+    padding: 0.5%;
+    /* font-weight: 500; */
+    text-align: center;
+    margin-left: 19.5%;
+    height: 3vw;
+}
+
+a {
+    color: #f8f9fa;
+}
+.footer {
+    position: fixed;
+    left: 25%;
+    bottom: .1%;
+    width: 50%;
+    height: 8%;
+    color: white;
+    font-size: 1.8vw;
+    text-align: center;
+    background-color: black;
+    opacity: 78%;
+    padding-bottom: 20px;
+}

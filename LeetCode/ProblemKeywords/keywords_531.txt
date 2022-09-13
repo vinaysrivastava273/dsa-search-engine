@@ -1,0 +1,6 @@
+class
+student
+easy
+sql
+sche
+database

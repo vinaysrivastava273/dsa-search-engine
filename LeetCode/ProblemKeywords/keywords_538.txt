@@ -1,0 +1,6 @@
+sale
+person
+easy
+sql
+sche
+database

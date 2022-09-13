@@ -1,0 +1,2 @@
+. Recover Binary Search Tree Medium You are given the root of a binary search tree (BST), where the values of exactly two nodes of the tree were swapped by mistake. Recover the tree without changing its structure.
+  Tree Depth-First Search Binary Search Tree Binary Tree

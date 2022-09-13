@@ -1,0 +1,7 @@
+. Remove K Digits Medium Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after removing k digits from num.
+  String Stack Greedy Monotonic Stack
+Create Maximum Number
+Monotone Increasing Digits
+Find the Most Competitive Subsequence
+Append K Integers With Minimal Sum
+Remove Digit From Number to Maximize Result

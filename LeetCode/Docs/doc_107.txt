@@ -1,0 +1,14 @@
+. Merge Intervals Medium Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
+  Array Sorting
+Insert Interval
+Meeting Rooms
+Meeting Rooms II
+Teemo Attacking
+Add Bold Tag in String
+Range Module
+Employee Free Time
+Partition Labels
+Interval List Intersections
+Amount of New Area Painted Each Day
+Longest Substring of One Repeating Character
+Count Integers in Intervals

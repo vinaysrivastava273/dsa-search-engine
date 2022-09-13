@@ -1,0 +1,6 @@
+. Max Consecutive Ones Easy Given a binary array nums, return the maximum number of consecutive 1's in the array.
+  Array
+Max Consecutive Ones II
+Max Consecutive Ones III
+Consecutive Characters
+Longer Contiguous Segments of Ones than Zeros

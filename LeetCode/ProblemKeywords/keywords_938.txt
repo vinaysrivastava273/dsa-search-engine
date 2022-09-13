@@ -1,0 +1,10 @@
+actor
+director
+cooperated
+least
+three
+time
+easy
+sql
+sche
+database

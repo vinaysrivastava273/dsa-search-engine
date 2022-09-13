@@ -1,0 +1,7 @@
+customer
+never
+order
+easy
+sql
+sche
+database

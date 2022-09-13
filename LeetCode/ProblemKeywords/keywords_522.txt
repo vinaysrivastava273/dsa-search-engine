@@ -1,0 +1,9 @@
+customer
+placing
+largest
+number
+order
+easy
+sql
+sche
+database

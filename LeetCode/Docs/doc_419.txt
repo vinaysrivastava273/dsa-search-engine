@@ -1,0 +1,7 @@
+. Find All Numbers Disappeared in an Array Easy Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums.
+  Array Hash Table
+First Missing Positive
+Find All Duplicates in an Array
+Find Unique Binary String
+Append K Integers With Minimal Sum
+Replace Elements in an Array

@@ -1,0 +1,7 @@
+. Count of Smaller Numbers After Self Hard Given an integer array nums, return an integer array counts where counts[i] is the number of smaller elements to the right of nums[i].
+  Array Binary Search Divide and Conquer Binary Indexed Tree Segment Tree Merge Sort Ordered Set
+Count of Range Sum
+Queue Reconstruction by Height
+Reverse Pairs
+How Many Numbers Are Smaller Than the Current Number
+Count Good Triplets in an Array

@@ -1,0 +1,11 @@
+base
+easy
+given
+integer
+num
+return
+string
+base
+7
+representation
+math

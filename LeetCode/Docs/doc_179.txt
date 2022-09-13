@@ -1,0 +1,6 @@
+. Longest Consecutive Sequence Medium Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
+You must write an algorithm that runs in O(n) time.
+  Array Hash Table Union Find
+Binary Tree Longest Consecutive Sequence
+Find Three Consecutive Integers That Sum to a Given Number
+Maximum Consecutive Floors Without Special Floors

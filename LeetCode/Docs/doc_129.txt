@@ -1,0 +1,8 @@
+. Subsets Medium Given an integer array nums of unique elements, return all possible subsets (the power set).
+The solution set must not contain duplicate subsets. Return the solution in any order.
+  Array Backtracking Bit Manipulation
+Subsets II
+Generalized Abbreviation
+Letter Case Permutation
+Find Array Given Subset Sums
+Count Number of Maximum Bitwise-OR Subsets

@@ -1,0 +1,5 @@
+. Count Primes Medium Given an integer n, return the number of prime numbers that are strictly less than n.
+  Array Math Enumeration Number Theory
+Ugly Number
+Ugly Number II
+Perfect Squares
