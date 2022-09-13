@@ -4,7 +4,7 @@ const path = require('path');
 const spawner = require('child_process').spawn;
 
 const app = express();              //Instantiate an express app, the main work horse of this server
-const PORT = 3000;                  //Save the PORT number where your server will be listening
+const PORT = process.env.PORT || 3000;                  //Save the PORT number where your server will be listening
 
 app.use(express.json());
 app.set("view engine", "ejs");
