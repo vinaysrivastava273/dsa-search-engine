@@ -9,13 +9,14 @@ from nltk import pos_tag
 from nltk.stem import WordNetLemmatizer
 
 query_string = sys.argv[1][1:-1]
-directory = "LeetCode"
+directory = os.getcwd()
 
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 
 
 def preprocess(text):
+    text = text.lower()
     text_p = ""
     for char in text:
         if char not in string.punctuation:
