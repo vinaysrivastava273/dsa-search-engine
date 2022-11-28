@@ -9,14 +9,17 @@ from nltk import pos_tag
 from nltk.stem import WordNetLemmatizer
 
 query_string = sys.argv[1][1:-1]
+directory = os.getcwd()
 # query_string = "zigzag-conversion"
-directory = "/Users/vinay/PycharmProjects/DSA_SearchEngine/BackEnd/LeetCode"
+# print(directory)
+# directory = "/Users/vinay/PycharmProjects/DSA_SearchEngine/BackEnd/LeetCode"
 
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 
 
 def preprocess(text):
+    text = text.lower()
     text_p = ""
     for char in text:
         if char not in string.punctuation:
@@ -47,11 +50,13 @@ with open(directory + "/idf_vector.txt", "r", encoding="utf8") as f:
         tfidf_query[index] *= float(values[index]) / len(query_keywords)
 
 
-directory += "/TFIDF/"
+directory = os.path.normpath(os.getcwd() + "/TFIDF")
+# directory += "/TFIDF/"
+# print(directory)
 similarity_scores = []
 
 for filename in os.listdir(directory):
-    f = directory + filename
+    f = directory + "/" + filename
     doc = open(f, "r", encoding="utf8")
     lines = doc.readlines()
     doc_number = 0
@@ -68,7 +73,10 @@ for filename in os.listdir(directory):
 
 
 similarity_scores.sort(reverse=True)
-urls = open(directory[:-7] + "/urls.txt", "r", encoding="utf8").readlines()
+directory = os.path.normpath(directory + "/../urls.txt")
+# print(directory)
+
+urls = open(directory, "r", encoding="utf8").readlines()
 results = []
 # print(similarity_scores[:5])
 

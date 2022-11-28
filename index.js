@@ -24,16 +24,17 @@ app.get("/search", (req, res) => {
     address = path.join(__dirname, 'LeetCode', 'user_query.py');
     // console.log('current directory:', address);
 
-    // console.log("Data sent to Python:", question);
+    console.log("Data sent to Python:", question);
     const python_process = spawner('python', [address, JSON.stringify(question)]);
 
     try{
         python_process.stdout.on('data', (data) => {
             arr = JSON.parse(data.toString());
-            // console.log("Data received from Python:", arr);
+            console.log("Data received from Python:", arr);
             res.json(arr);
         });    
     }catch(error){
+        console.log("error");
         res.json('no data recieved');
     }
 });
