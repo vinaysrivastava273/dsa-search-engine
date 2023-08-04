@@ -9,10 +9,10 @@ from nltk import pos_tag
 from nltk.stem import WordNetLemmatizer
 
 query_string = sys.argv[1][1:-1]
-directory = os.getcwd()
+# directory = os.getcwd()
 # query_string = "zigzag-conversion"
 # print(directory)
-# directory = "/Users/vinay/PycharmProjects/DSA_SearchEngine/BackEnd/LeetCode"
+directory = "/Users/vinay/PycharmProjects/DSA_SearchEngine/BackEnd/LeetCode"
 
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
@@ -33,6 +33,7 @@ def preprocess(text):
     return stemmed
 
 
+# print(json.dumps("here"))
 keywords = open(directory + "/keywords.txt", "r", encoding="utf8").readlines()
 word_index = {keywords[index][:-1]: index for index in range(len(keywords))}
 query_keywords = preprocess(query_string)
@@ -50,8 +51,8 @@ with open(directory + "/idf_vector.txt", "r", encoding="utf8") as f:
         tfidf_query[index] *= float(values[index]) / len(query_keywords)
 
 
-directory = os.path.normpath(os.getcwd() + "/TFIDF")
-# directory += "/TFIDF/"
+# directory = os.path.normpath(os.getcwd() + "/TFIDF")
+directory += "/TFIDF/"
 # print(directory)
 similarity_scores = []
 
@@ -73,8 +74,9 @@ for filename in os.listdir(directory):
 
 
 similarity_scores.sort(reverse=True)
-directory = os.path.normpath(directory + "/../urls.txt")
-# print(directory)
+directory = directory[:-7] + "/urls.txt"
+# directory = os.path.normpath(directory + "/../urls.txt")
+# print(json.dumps(directory))
 
 urls = open(directory, "r", encoding="utf8").readlines()
 results = []

@@ -66,6 +66,6 @@ for index in range(len(urls)):
     for problem in similar:
         problem_string += '\n' + problem.text
 
-    with open("Docs/doc_{}.txt".format(index), "w", encoding="utf8") as file:
-        file.write(problem_string)
+    # with open("Docs/doc_{}.txt".format(index), "w", encoding="utf8") as file:
+    #     file.write(problem_string)
 driver.close()
