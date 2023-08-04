@@ -9,9 +9,7 @@ from nltk import pos_tag
 from nltk.stem import WordNetLemmatizer
 
 query_string = sys.argv[1][1:-1]
-# directory = os.getcwd()
 # query_string = "zigzag-conversion"
-# print(directory)
 directory = "/Users/vinay/PycharmProjects/DSA_SearchEngine/BackEnd/LeetCode"
 
 stop_words = set(stopwords.words('english'))
@@ -37,7 +35,6 @@ def preprocess(text):
 keywords = open(directory + "/keywords.txt", "r", encoding="utf8").readlines()
 word_index = {keywords[index][:-1]: index for index in range(len(keywords))}
 query_keywords = preprocess(query_string)
-# print(query_keywords)
 
 tfidf_query = [0] * len(keywords)
 for word in query_keywords:
@@ -80,11 +77,9 @@ directory = directory[:-7] + "/urls.txt"
 
 urls = open(directory, "r", encoding="utf8").readlines()
 results = []
-# print(similarity_scores[:5])
 
 for i in range(5):
     index = similarity_scores[i][1]
     results.append(urls[index][:-1])
 
-# print(results)
 print(json.dumps(results))
