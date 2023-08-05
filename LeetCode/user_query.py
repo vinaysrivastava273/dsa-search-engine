@@ -10,7 +10,9 @@ from nltk.stem import WordNetLemmatizer
 
 query_string = sys.argv[1][1:-1]
 # query_string = "zigzag-conversion"
-directory = "/Users/vinay/PycharmProjects/DSA_SearchEngine/BackEnd/LeetCode"
+
+# CHANGE THE BELOW ADDRESS FOR YOUR SYSTEM
+directory = "/Users/vinay/PycharmProjects/DSA_SearchEngine/BackEnd/LeetCode" 
 
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
